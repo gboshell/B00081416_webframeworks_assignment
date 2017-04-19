@@ -1,0 +1,23 @@
+{% extends '_base.html.twig' %}
+
+{% block pageTitle %}list of students{% endblock %}
+
+{% block body %}
+
+    {{ dump() }}
+
+    <ul>
+        {% for student in students %}
+            <li>
+                id = {{ recipe.id }}
+                <br>
+                name = {{ recipe.name }}
+                <br>
+                ingredients = {{ recipe.ingredients }}
+                <br>
+                instructions = {{ recipe.instructions }}
+            </li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
