@@ -3,3 +3,4 @@
 1. File structure created
 2. homepage added
 3. database created
+4. recipe entity created
